@@ -1,0 +1,56 @@
+# Ignore any build directories
+[Bb]uild*/
+[Bb]uild/
+
+# Ignore CMake specific files
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+# Ignore generated MOC, RCC, and UI files
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Ignore QtCreator project files
+*.txt.user
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+*.qmake.cache
+*.pro.user.*
+*.creator.user
+*.creator.user.*
+*.autosave
+*.qmlproject.user
+*.qmlproject.user.*
+*.qmlproject
+
+# Ignore editor and IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+
+# Ignore compiled object files and executables
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# Ignore coverage and testing output
+lcov-report/
+*.gcda
+*.gcno
+*.gcov
+
+#
